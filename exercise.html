@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color:rgba(96, 87, 76,0.45)
+        }
+    .kevinp1 {
+      font-family:sans-serif;
+      font-size:45px;
+      margin-bottom:0px;
+      line-height:70px;
+    }
+    .kevinh1 {
+      font-size:50px;
+      margin-top:10px;
+      font-family:sans-serif;
+      margin-bottom:0px;
+      line-height:70px;
+    
+    }
+    .kevinp2 {
+        
+        margin-top:15px;
+       color:gray;
+       font-size:20px;
+       font-style:italic;
+       line-height:50px; 
+    }
+    .kevin button {
+     
+      background-color:#60574c;
+      color:white;
+      padding:10px 15px;
+      font-size:25px;
+    }
+    .happyawards{
+        display:flex;
+        flex-flow:row ,nowrap;
+        column-gap:30px;
+
+    }
+    .happyp1,.awardsp1 {
+        font-weight: 700;
+        font-family:sans-serif;
+        font-size:60px;
+        margin-left:20px;
+        color:#60574c;
+        margin-bottom:0px
+
+    }
+    .happyp2,.awardsp2 {
+        font-size:30px;
+        margin-top:15px;
+        color:#60574c;
+    }
+    .happyp3, .awardsp3 {
+        font-style:italic;
+        font-size:20px;
+        letter-spacing:2px;
+        color:#60574c;
+        line-height:30px;
+}
+.kevin {
+    width:50%;
+    margin-top:100px;
+    margin-left:100px;
+}
+.general {
+    display:flex;
+    flex-direction:row;
+ 
+
+}
+.image {
+margin-top:0px;
+}
+img {
+    height:900px;
+
+}
+@media only screen and (max-width:1000px){
+    .general {
+        display:flex;
+    flex-direction:column;
+    flex-wrap:wrap
+    }
+    .kevin {
+        width:100%;
+        margin:0;
+    }
+    .image {
+        width:100%;
+        margin:0;
+    }
+    img {
+        width:80%;
+        height:auto;
+        margin:0;
+    }
+    .happyawards {
+        width:80%;
+        display:flex;
+        flex-direction: column;
+    }
+  
+}
+    </style>
+</head>
+<body>
+    <div class="general">
+  <div class="kevin">
+   <p class="kevinp1">Hello, I am </p> 
+   <h1 class="kevinh1">Kevin Smith</h1>
+   <p class="kevinp2">Image from <span style="color:black">Freepik</span> </p>
+   <button>contact us</button>
+   <div class="happyawards">
+   <div class="happy">
+    <p class="happyp1">100</p>
+    <p class="happyp2">HAPPY CLIENTS</p>
+    <p class="happyp3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+   </div>
+   <div class="awards">
+    <p class="awardsp1">12</p>
+    <p class="awardsp2">AWARDS</p>
+    <p class="awardsp3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+   </div>
+  </div>  
+  </div>
+  <div class="image">
+    <img src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/2eb17311c21d5ccda9e3b182/-min.png" alt="">
+  </div>
+    </div>
+</body>
+</html>
